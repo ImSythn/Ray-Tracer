@@ -1,0 +1,29 @@
+﻿  World.cpp
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\Object.cpp(5,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\World.cpp(8,24): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\World.cpp(27,58): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\World.cpp(36,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\World.cpp(37,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\World.cpp(56,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\World.cpp(69,12): warning C4101: 'event': unreferenced local variable
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+MathFunc.obj : warning LNK4006: "class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> generator" (?generator@@3V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@A) already defined in CastRay.obj; second definition ignored
+MathFunc.obj : warning LNK4006: "class std::uniform_real_distribution<float> distribution" (?distribution@@3V?$uniform_real_distribution@M@std@@A) already defined in CastRay.obj; second definition ignored
+RayTracer.obj : warning LNK4006: "public: __cdecl Object::Object(void)" (??0Object@@QEAA@XZ) already defined in Object.obj; second definition ignored
+RayTracer.obj : warning LNK4006: "public: virtual __cdecl Object::~Object(void)" (??1Object@@UEAA@XZ) already defined in Object.obj; second definition ignored
+RayTracer.obj : warning LNK4006: "public: virtual void __cdecl Object::GetNormal(class Vec3f &,class Vec3f const &)" (?GetNormal@Object@@UEAAXAEAVVec3f@@AEBV2@@Z) already defined in Object.obj; second definition ignored
+RayTracer.obj : warning LNK4006: "public: virtual bool __cdecl Object::Intersect(class Vec3f const &,class Vec3f const &,float &)" (?Intersect@Object@@UEAA_NAEBVVec3f@@0AEAM@Z) already defined in Object.obj; second definition ignored
+RayTracer.obj : warning LNK4006: "class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> generator" (?generator@@3V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@A) already defined in CastRay.obj; second definition ignored
+RayTracer.obj : warning LNK4006: "class std::uniform_real_distribution<float> distribution" (?distribution@@3V?$uniform_real_distribution@M@std@@A) already defined in CastRay.obj; second definition ignored
+Sphere.obj : warning LNK4006: "public: __cdecl Object::Object(void)" (??0Object@@QEAA@XZ) already defined in Object.obj; second definition ignored
+Sphere.obj : warning LNK4006: "public: virtual __cdecl Object::~Object(void)" (??1Object@@UEAA@XZ) already defined in Object.obj; second definition ignored
+Sphere.obj : warning LNK4006: "public: virtual void __cdecl Object::GetNormal(class Vec3f &,class Vec3f const &)" (?GetNormal@Object@@UEAAXAEAVVec3f@@AEBV2@@Z) already defined in Object.obj; second definition ignored
+Sphere.obj : warning LNK4006: "public: virtual bool __cdecl Object::Intersect(class Vec3f const &,class Vec3f const &,float &)" (?Intersect@Object@@UEAA_NAEBVVec3f@@0AEAM@Z) already defined in Object.obj; second definition ignored
+World.obj : warning LNK4006: "public: __cdecl Object::Object(void)" (??0Object@@QEAA@XZ) already defined in Object.obj; second definition ignored
+World.obj : warning LNK4006: "public: virtual __cdecl Object::~Object(void)" (??1Object@@UEAA@XZ) already defined in Object.obj; second definition ignored
+World.obj : warning LNK4006: "public: virtual void __cdecl Object::GetNormal(class Vec3f &,class Vec3f const &)" (?GetNormal@Object@@UEAAXAEAVVec3f@@AEBV2@@Z) already defined in Object.obj; second definition ignored
+World.obj : warning LNK4006: "public: virtual bool __cdecl Object::Intersect(class Vec3f const &,class Vec3f const &,float &)" (?Intersect@Object@@UEAA_NAEBVVec3f@@0AEAM@Z) already defined in Object.obj; second definition ignored
+World.obj : warning LNK4006: "class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> generator" (?generator@@3V?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@A) already defined in CastRay.obj; second definition ignored
+World.obj : warning LNK4006: "class std::uniform_real_distribution<float> distribution" (?distribution@@3V?$uniform_real_distribution@M@std@@A) already defined in CastRay.obj; second definition ignored
+C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\x64\Debug\Ray Tracer.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Ray Tracer.vcxproj -> C:\Users\spell\OneDrive\Ray-Tracer\Ray Tracer\x64\Debug\Ray Tracer.exe
